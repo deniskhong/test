@@ -1,0 +1,20 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "angular",
+        "airbnb/legacy",
+        "plugin:prettier/recommended"
+    ],
+    "rules": {
+        "func-names": 0,
+        "prettier/prettier": ["error", {
+            "singleQuote": true,
+            "tabWidth": 4,
+            "trailingComma": "es5"
+        }]
+    },
+    "plugins": ["prettier"]
+}

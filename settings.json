@@ -1,0 +1,31 @@
+// Place your settings in this file to overwrite the default settings
+{
+    //"haskell.ghcMod.executablePath": "/usr/local/bin/stack",
+    // Set the default
+    "editor.formatOnSave": true,
+    // Enable per-language
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    // "javascript.format.enable": false,
+    "flow.pathToFlow": "${workspaceRoot}/node_modules/.bin/flow",
+    "flow.useNPMPackagedFlow": true,
+    "javascript.implicitProjectConfig.checkJs": true,
+    // "javascript.validate.enable": false,
+    // "prettier.eslintIntegration": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "beautify.language": {
+        "css": [
+            "css",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html"
+        ]
+    },
+    "java.home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home",
+    "window.zoomLevel": 0,
+    "files.autoSave": "afterDelay"
+}
